@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Riyadvi Website
 
-## Getting Started
+## Project Overview
+This is a full-stack website developed for the Riyadvi Software Technologies assignment.
 
-First, run the development server:
+## Technologies Used
+- Next.js
+- React
+- TypeScript
+- Node.js
+- Express.js
+- MongoDB Atlas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- Responsive website pages
+- Contact form
+- Business Health Checkup form
+- Backend API
+- MongoDB database connection
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Requirements
+Install Node.js and npm before starting.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YuvaRoja/riyadvi-website.git
+   ```
+2. Open the project folder:
+   ```bash
+   cd riyadvi-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the frontend:
+   ```bash
+   npm run dev
+   ```
+5. Open http://localhost:3000 in your browser.
 
-## Learn More
+### Backend Setup
+1. Open a second terminal.
+2. Go to the backend folder:
+   ```bash
+   cd backend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure the required environment variables, including your MongoDB connection string.
+5. Start the backend using the script configured in `backend/package.json`.
 
-To learn more about Next.js, take a look at the following resources:
+The backend is expected to run at http://localhost:5000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Security
+Do not upload `.env` files, database passwords, or other secret credentials to GitHub.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Developer
+YuvaRoja
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/YuvaRoja/riyadvi-website
