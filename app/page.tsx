@@ -34,7 +34,7 @@ export default function Home() {
   <h1>
     We Build Digital
     <br />
-    <span>Experiences.</span>
+    <span className="hero-experience">Experiences.</span>
   </h1>
 
   <p>

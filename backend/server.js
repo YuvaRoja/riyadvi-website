@@ -36,6 +36,16 @@ app.get("/api/test", (req, res) => {
   });
 });
 
+app.post("/api/post-test", (req, res) => {
+  console.log("POST TEST RECEIVED");
+  console.log(req.body);
+
+  res.json({
+    success: true,
+    message: "POST request received",
+  });
+});
+
 // Save contact form submissions
 app.post("/api/contact", async (req, res) => {
   try {
