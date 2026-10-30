@@ -36,7 +36,7 @@ try {
 const timeout = setTimeout(() => controller.abort(), 10000);
 
 const response = await fetch(
-"http://localhost:5000/api/business-health-checkup",
+"https://riyadvi-website-1.onrender.com/api/contact",
 {
 method: "POST",
 headers: { "Content-Type": "application/json" },

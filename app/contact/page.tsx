@@ -27,7 +27,7 @@ export default function ContactPage() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/contact",
+        "https://riyadvi-website-1.onrender.com/api/contact",
         {
           method: "POST",
           headers: {
